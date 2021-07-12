@@ -76,8 +76,8 @@ const Index = ({ setSelectedCategory, setUrl }) => {
                     {
                         folderList.map((item) => {
                             return (
-                                <Paper onClick={() => onFolderClick(item)} elevation={3} style={{ padding: 10, margin: 10, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}>
-                                    <FolderSpecialIcon style={{ width: 80, height: 80 }} />
+                                <Paper onClick={() => onFolderClick(item)} elevation={3} style={{ padding: 6, margin: 6, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}>
+                                    <FolderSpecialIcon style={{ width: 60, height: 60 }} />
                                     <Typography variant="p" noWrap={true} style={{ margin: 'auto', maxWidth: 90 }}>{item.name}</Typography>
                                 </Paper>
                             )
