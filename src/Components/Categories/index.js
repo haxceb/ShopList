@@ -49,7 +49,7 @@ const Index = ({ setSelectedCategory, setUrl }) => {
         <form >
             <Grid container spacing={2} style={{ margin: 'auto', width: '80vw', marginTop: 50, padding: 20, boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }}>
                 <Grid item container justify="space-between" alignItems="center" xs={12}>
-                    <Avatar alt="Shop List Logo" src={Logo} style={{ width: 70, height: 70 }} />
+                    <Avatar alt="Shop List Logo" src={Logo} style={{ width: 70, height: 70, marginBottom: 10 }} />
                     <div style={{ display: 'flex', height: 40 }}>
                         <TextField
                             id="standard-full-width"
